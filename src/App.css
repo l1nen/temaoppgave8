@@ -1,38 +1,50 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+/** form  */
+.form-input {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.buttonClass {
+  margin-left: -60%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/** main  */
+main {
+  padding: 5rem;
+  text-align: center;
+  border: 2px solid rgb(25, 131, 192);
+  border-radius: 1rem;
+  margin: 5rem;
+  background-image: url('./assets/WeatherApp.jpeg');
+  /* height: 600px; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.heading {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.city-name {
+  text-transform: capitalize;
+}
+
+.cardText {
+  font-weight: 700;
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.cardTitle {
+  font-size: 16px;
+  text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icons {
+  height: 20px;
 }
